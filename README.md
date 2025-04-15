@@ -1,5 +1,5 @@
-PlanetHub
-PlanetHub is a creative and fictional website where users can "buy" planets. Built using only HTML and CSS, this project is meant to showcase design skills, imagination, and responsive layout techniques.
+PlanetShop
+PlanetShop is a creative and fictional website where users can "buy" planets. Built using only HTML and CSS, this project is meant to showcase design skills, imagination, and responsive layout techniques.
 
 Features
 Beautiful homepage with a black and white layout
