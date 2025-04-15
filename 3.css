@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  body{
+    background-color: #2c2c2c;
+  }
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+   
+    border-bottom: 1px solid black;
+}
+#logo img{
+    height:90px;
+    width:100px;
+   
+}
+.header-list-nav ul{
+    list-style-type: none;
+   display: flex;
+}
+.header-list-nav ul li a{
+    margin: 0 10px;
+    border: 2px solid white;
+    padding: 0 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.signUp{
+    color:white ;
+    background-color: black;
+}
+.signUp:hover{
+    color:black ;
+    background-color:white;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    margin: 0px 100px;
+    flex-wrap: wrap;
+}
+main h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+main p{
+    font-size: 16px;
+    font-weight: 200px;
+    line-height: 1.6;
+    margin:20px 30px;
+    word-spacing: 4px;
+}
+.contentleft{
+   flex: 1;
+}
+.contentmiddle{
+    flex: 2;
+    padding: 0 20px;  /* Add this */
+    width: 50%
+   
+}
+.contentright{
+    flex: 1;
+}
+
+/*.mercury{
+    
+    max-width: 500px ;
+    height: auto;
+}*/
+.button{
+    background: white;
+    padding: 15px 30px;
+    color: black;
+    margin: 50px 20px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700px;
+}
+button:hover{
+  color: white;
+  background-color: #2c2c2c;
+  border:2px solid white;
+
+}
